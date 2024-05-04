@@ -1,7 +1,7 @@
 from solution import Solution
 import pytest # Biblioteca para testes unitários.
 
-@pytest.pytest.fixture
+@pytest.fixture
 def solution_instance():
     return Solution()
 
